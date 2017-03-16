@@ -1,6 +1,6 @@
 {
    "name":"izzy-p/paysafe_sdk_php",
-   "version": "v2.0.0",
+   "version": "v2.1.0",
    "description":"Paysafe PHP Library",
    "keywords":[
       "paysafe",
