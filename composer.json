@@ -1,0 +1,27 @@
+{
+	"name": "izzy-p/paysafe_sdk_php",
+  "description": "Paysafe PHP Library",
+	"keywords": [
+    "paysafe",
+    "payment processing",
+    "api"
+  ],
+  "homepage": "http://github.com/izzyp/paysafe_sdk_php",
+  "license": "MIT",
+	"version": "1.0",
+	"authors": [
+		{
+			"name": "Jer Jer",
+			"email": "egf61316@gmail.com",
+		}
+  ],
+	"require": {
+		"php": ">=5.4.0",
+	},
+"autoload": {
+     "classmap": [
+         "./source/paysafe.php"
+     ]
+ }
+ "minimum-stability": "dev"
+}
