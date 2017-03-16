@@ -4,16 +4,6 @@
 
 ## Installation
 
-### Windows
-
-On Windows, you will be required set the following environment variable that points to a valid CA certificate on your system in order to perform the https operations:
-
-    SSL_CERT_FILE
-
-Alternatively, you can make a call in your code to the following static method using the path to your CA certificate:
-
-    \Paysafe\PaysafeApiClient::setCACertPath(_PATH_TO_CERTIFICATE_);
-
 This SDK requires PHP >= 5.3 and cURL to be installed.
 
 This SDK requires that you can complete an SSL connection using cURL to the API endpoints from within your hosting environment . Any cURL errors returned will require you to complete connectivity troubleshooting within your hosting environment. See cURL error codes for assistance: http://curl.haxx.se/libcurl/c/libcurl-errors.html
